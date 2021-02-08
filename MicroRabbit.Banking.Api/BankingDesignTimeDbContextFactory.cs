@@ -8,9 +8,9 @@ using System.Configuration;
 using System.IO;
 using System.Text;
 
-namespace MicroRabbit.Banking.Data
+namespace MicroRabbit.Banking.Api
 {
-    public class DefaultDesignTimeDbContextFactory : IDesignTimeDbContextFactory<BankingDbContext>
+    public class BankingDesignTimeDbContextFactory : IDesignTimeDbContextFactory<BankingDbContext>
     {
         public BankingDbContext CreateDbContext(string[] args)
         {
